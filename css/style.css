@@ -64,12 +64,18 @@ width: 12px;
 text-indent: 3%;
 }
 
-#list {
+#image {
+    background-image: url(https://github.com/LTUC/amman-201d4/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* #list {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-}
+} */
 
 #first {
 margin-left: 10%;
@@ -100,7 +106,7 @@ margin-left: 10%;
 
 #samll-logo {
     position: relative;
-    width: 50%;
+    height: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
