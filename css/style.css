@@ -1,16 +1,16 @@
 div {
     /* text-align: center; */
 margin: 1% 10% 3% 10%;
-background-color: #f5f5f5;
+background-color: #F5F5F5;
 }
-
-
 #logo #title {
     display: inline-block;
 }
 #description {
     text-transform: uppercase;
     font-size: 10px;
+    color: darkgrey;
+
 }
 #logo {
     float: left;
@@ -18,25 +18,22 @@ background-color: #f5f5f5;
     width: 2%;
     margin-left: 15%;
 }
-
 #icons {
     float: right;
     margin-right: 15%;
     /* width: 10px; */
 }
-
 #icon-space {
     margin-left: 10px;
 }
-
 article section h1 {
     margin-left: 15%;
-
 }
 #date {
     font-size: 11px;
     margin-left: 15%;
     text-transform: uppercase;
+    color: darkgrey;
 
 }
 #print-text{
@@ -44,81 +41,148 @@ article section h1 {
     margin-right: 18%;
     margin-left: .1%;
     text-transform: uppercase;
-}
+    color: darkgrey;
 
+}
 #print {
     float: right;
 width: 12px;
 }
-
 #main-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
-
 .paragraph {
     font-size: 15px ;
     margin: 2% 15% 2% 15%;
-text-indent: 3%;
+    text-indent: 3%;
+    color: darkgrey;
 }
-
-#image {
-    background-image: url(https://github.com/LTUC/amman-201d4/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true);
-background-size: cover;
-background-repeat: no-repeat;
+.cont{
+    position: relative;
 }
-
-/* #list {
+.img-list img {
+    width: 100%;
+    padding-bottom: 40px;
+}
+#lable1 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -279px;
+}
+#lable-2 {
+    position: absolute;
+    margin-top: -251px;
+    margin-left: 60px;
+}
+#lable-3 {
+    position: absolute;
+    margin-top: -223px;
+    margin-left: 60px;
+}
+#lable-4 {
+    position: absolute;
+    margin-top: -196px;
+    margin-left: 60px;
+}
+#lable-5 {
+    position: absolute;
+    margin-top: -169px;
+    margin-left: 60px;
+}
+#lable-6 {
+    position: absolute;
+    margin-top: -142px;
+    margin-left: 60px;
+}
+#lable-7 {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 460px;
+}
+#lable-8 {
+    position: absolute;
+    margin-top: -169px;
+    margin-left: 460px;
+}
+#lable-9 {
+    position: absolute;
+    margin-top: -197px;
+    margin-left: 460px;
+}
+#lable-10 {
+    position: absolute;
+    margin-top: -224px;
+    margin-left: 460px;
+}
+#lable-11 {
+    position: absolute;
+    margin-top: -252px;
+    margin-left: 460px;
+}
+#lable-12 {
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 460px;
+}
+.line-decr{
+    text-decoration: line-through;
+}
+/* .list {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.first-list {
+    position: absolute;
+    float: left;
+    margin-left: 155px;
+    margin-top: 66px;
+    margin-left: 15%;
+    margin-bottom: 55%;
+}
+.second-list {
+    position: absolute;
+    float: left;
+    margin-right: -250;
+    margin-top: 66px;
+    margin-left: 80%;
 } */
-
-#first {
-margin-left: 10%;
-}
-
-
-#second {
-    float: right;
-}
-
 #van-pic{
     float: left;
     margin-top: 3%;
     margin-left:  15%;
     margin-bottom: 7%;
 }
-
 #van-pic #van-p {
     display: inline-block;
 }
-
 #van-p {
     font-size: 15px;
+    color: darkgrey;
+
     /* float: left;
     margin-right: 10px;
     margin-left: 15%; */
 }
-
 #samll-logo {
-    position: relative;
-    height: 30%;
+    /* position: relative;
+    width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    z-index: -1px;
+    z-index: +1;
+    margin-top: -1%;
 }
-
 button {
     float: right;
    background-color: red;
    color: white;
    padding: 10px;
 }
-
 footer {
     text-align: center;
 }
